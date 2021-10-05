@@ -1,0 +1,19 @@
+{
+  "name": "webnotify documentation",
+  "version": "0.0.1",
+  "description": "Documentation du projet open source web notify",
+  "main": "index.js",
+  "authors": {
+    "name": "Nicolas Ramos",
+    "email": "webnotify@nicolas-r.fr"
+  },
+  "repository": "https://github.com/n-ramos/web-notify-site/webnotify documentation",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
