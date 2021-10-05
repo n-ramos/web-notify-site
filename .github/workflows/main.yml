@@ -25,9 +25,10 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-        build_dir: src/.vuepress/dist
     - run: npm install    
     - run: npm run build
     - uses: crazy-max/ghaction-github-pages@v2.5.0
+      with: 
+        build_dir: src/.vuepress/dist
      
        
